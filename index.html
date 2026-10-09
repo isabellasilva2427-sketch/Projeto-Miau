@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Miau</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Projeto Miau</h1>
+
+        <nav class="navbar">
+
+            <input type="checkbox" id="menu-toggle">
+
+            <label for="menu-toggle" class="menu-icon">☰</label>
+
+            <ul class="menu">
+
+                <li>
+                    <a href="#" data-pagina="inicio">Início</a>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#" data-pagina="projetos">Projetos ▾</a>
+
+                    <ul class="submenu">
+                        <li>
+                            <a href="projetos.html#doacao">Doação</a>
+                        </li>
+
+                        <li>
+                            <a href="projetos.html#voluntariado">Voluntariado</a>
+                        </li>
+
+                        <li>
+                            <a href="projetos.html#acolhimento">Acolhimento</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#" data-pagina="cadastro">Cadastro</a>
+                </li>
+
+            </ul>
+
+        </nav>
+    </header>
+
+    <main class="pagina-inicial">
+
+        <div id="conteudo">
+
+            <section class="intro">
+
+                <h2>Bem-vindo ao Projeto Miau!</h2>
+
+                <p>
+                    O Projeto Miau é uma ONG que resgata gatinhos que precisam
+                    da sua ajuda para que continuem bem alimentados e aquecidos
+                    nos dias de frio.
+                </p>
+
+                <img src="../imagens/projetomiau.jpg"
+                    alt="Gatinhos acolhidos pelo Projeto Miau">
+
+            </section>
+
+            <section class="feedback">
+
+                <div class="badges">
+                    <span class="badge badge-primary">Projeto ativo</span>
+                    <span class="badge badge-success">Disponível</span>
+                    <span class="badge badge-warning">Em andamento</span>
+                </div>
+
+                <div class="alert alert-success">
+                    <strong>Sucesso!</strong>
+                    Sua contribuição foi registrada.
+                </div>
+
+                <div class="alert alert-warning">
+                    <strong>Atenção!</strong>
+                    Verifique as informações antes de continuar.
+                </div>
+
+                <div class="alert alert-error">
+                    <strong>Erro!</strong>
+                    Não foi possível concluir a ação.
+                </div>
+
+            </section>
+
+        </div>
+
+    </main>
+
+    <div class="toast">
+        Projeto Miau: ação realizada com sucesso!
+    </div>
+
+    <script type="module" src="../js/script.js"></script>
+
+</body>
+
+</html>
